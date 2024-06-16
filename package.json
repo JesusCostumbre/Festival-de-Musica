@@ -1,0 +1,27 @@
+{
+  "name": "festival-de-musica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS Y NPM",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusCostumbre/Festival-de-Musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Jesus Costumbre @jesus_costumbre en X",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesusCostumbre/Festival-de-Musica/issues"
+  },
+  "homepage": "https://github.com/JesusCostumbre/Festival-de-Musica#readme",
+  "devDependencies": {
+    "sass": "^1.77.5"
+  }
+}
