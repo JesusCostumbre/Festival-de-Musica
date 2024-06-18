@@ -7,7 +7,7 @@ const sass = gulpSass(dartSass)
 
 export function css( done ){
     src('src/scss/app.scss')
-        .pipe( sass() )
+        .pipe( sass().on('error', sass.logError) )
         .pipe( dest('build/css') )
 
 
@@ -15,5 +15,5 @@ export function css( done ){
 }
 
 export function dev() {
-    watch('src/scss/app.scss', css)
+    watch('src/scss/**/*.scss', css)
 }
